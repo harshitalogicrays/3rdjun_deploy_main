@@ -1,0 +1,53 @@
+/* src/App.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 250px;
+    background-color: #343a40;
+    overflow-x: hidden;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #343a40;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-header h5 {
+    margin: 0;
+    color: #fff;
+}
+
+.sidebar .nav-link {
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        display: none;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .sidebar.d-block {
+        display: block;
+        transform: translateX(0);
+    }
+
+    .sidebar.d-none {
+        transform: translateX(-100%);
+    }
+}
+

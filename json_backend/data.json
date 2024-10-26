@@ -1,0 +1,273 @@
+{
+  "users": [
+    {
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "cpassword": "admin123",
+      "role": "0",
+      "id": 1
+    },
+    {
+      "username": "Ram",
+      "email": "ram@gmail.com",
+      "password": "ram123",
+      "cpassword": "ram123",
+      "role": "1",
+      "id": 2
+    },
+    {
+      "username": "happy",
+      "email": "happy@gmail.com",
+      "password": "happy123",
+      "cpassword": "happy123",
+      "role": "1",
+      "id": 3
+    },
+    {
+      "username": "smit",
+      "email": "smitughaliya2",
+      "password": "",
+      "cpassword": "",
+      "role": "1",
+      "id": 4
+    },
+    {
+      "username": "smit",
+      "email": "smitughaliya@gmail.com",
+      "password": "smit123",
+      "cpassword": "smit123",
+      "role": "1",
+      "id": 5
+    }
+  ],
+  "cars": [
+    {
+      "carId": 1,
+      "model": "hundai",
+      "fuel": "Petrol",
+      "startDate": "2024-10-29T18:30:00.000Z",
+      "endDate": "2024-11-01T18:30:00.000Z",
+      "totalPrice": 12000,
+      "userId": 2,
+      "name": "qeqeq",
+      "phone": "qeqe",
+      "address": "qeqeq",
+      "apartment": "eqeq",
+      "area": "eqeqeq",
+      "pincode": "eqeqeqeqe",
+      "status": "approved",
+      "id": 1,
+      "availability": true
+    },
+    {
+      "model": "toyota",
+      "price": "1000",
+      "image": "http://res.cloudinary.com/harshitalogicrays1/image/upload/v1728023874/lgcjcsfxiz9zbfielutr.png",
+      "fuel": "Diesel",
+      "capcity": "5",
+      "availability": true,
+      "id": 2,
+      "location": "Navrangpura"
+    },
+    {
+      "carId": 3,
+      "model": "aqwq",
+      "fuel": "Diesel",
+      "startDate": "2024-10-24T18:30:00.000Z",
+      "endDate": "2024-10-25T18:30:00.000Z",
+      "totalPrice": 4000,
+      "userId": 3,
+      "location": "Vastrapur",
+      "name": "wrwr",
+      "phone": "rwr",
+      "address": "rwr",
+      "apartment": "wrwr",
+      "area": "wrwrw",
+      "pincode": "rwr",
+      "status": "pending",
+      "id": 3,
+      "availability": false
+    },
+    {
+      "model": "q",
+      "price": "13131",
+      "image": "http://res.cloudinary.com/harshitalogicrays1/image/upload/v1728369860/tduonkldhofjksydhsj1.jpg",
+      "fuel": "Diesel",
+      "capcity": "2",
+      "availability": false,
+      "id": 4,
+      "location": "Gota"
+    },
+    {
+      "model": "eqqe",
+      "price": "2323",
+      "image": "http://res.cloudinary.com/harshitalogicrays1/image/upload/v1728370063/vuefaeignjvkszrfmkta.png",
+      "fuel": "Diesel",
+      "capcity": "2",
+      "availability": true,
+      "id": 5,
+      "location": "Chandkheda"
+    },
+    {
+      "model": "eqqe",
+      "price": "4000",
+      "image": "http://res.cloudinary.com/harshitalogicrays1/image/upload/v1728370121/mqnhf7l3l9s5nwbuawwb.jpg",
+      "fuel": "Diesel",
+      "capcity": "221",
+      "availability": true,
+      "id": 6,
+      "location": "Chandkheda"
+    }
+  ],
+  "bookings": [
+    {
+      "carId": 1,
+      "model": "hundai",
+      "fuel": "Petrol",
+      "startDate": "2024-10-29T18:30:00.000Z",
+      "endDate": "2024-11-01T18:30:00.000Z",
+      "totalPrice": 12000,
+      "userId": 2,
+      "name": "qeqeq",
+      "phone": "qeqe",
+      "address": "qeqeq",
+      "apartment": "eqeq",
+      "area": "eqeqeq",
+      "pincode": "eqeqeqeqe",
+      "status": "completed",
+      "id": 1
+    },
+    {
+      "carId": 3,
+      "model": "aqwq",
+      "fuel": "Diesel",
+      "startDate": "2024-10-24T18:30:00.000Z",
+      "endDate": "2024-10-25T18:30:00.000Z",
+      "totalPrice": 4000,
+      "userId": 3,
+      "location": "Vastrapur",
+      "name": "aaa",
+      "phone": "aaw",
+      "address": "wrw",
+      "apartment": "wrwr",
+      "area": "wrwr",
+      "pincode": "wrwr",
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "carId": 3,
+      "model": "aqwq",
+      "fuel": "Diesel",
+      "startDate": "2024-10-24T18:30:00.000Z",
+      "endDate": "2024-10-25T18:30:00.000Z",
+      "totalPrice": 4000,
+      "userId": 3,
+      "location": "Vastrapur",
+      "name": "wrwr",
+      "phone": "rwr",
+      "address": "rwr",
+      "apartment": "wrwr",
+      "area": "wrwrw",
+      "pincode": "rwr",
+      "status": "approved",
+      "id": 3
+    },
+    {
+      "carId": 3,
+      "model": "aqwq",
+      "fuel": "Diesel",
+      "startDate": "2024-10-24T18:30:00.000Z",
+      "endDate": "2024-10-25T18:30:00.000Z",
+      "totalPrice": 4000,
+      "userId": 3,
+      "location": "Vastrapur",
+      "name": "wew",
+      "phone": "wrw",
+      "address": "wrw",
+      "apartment": "wrw",
+      "area": "wrwr",
+      "pincode": "wrw",
+      "status": "pending",
+      "id": 4
+    },
+    {
+      "carId": 1,
+      "model": "hundai",
+      "fuel": "Petrol",
+      "startDate": "2024-10-24T18:30:00.000Z",
+      "endDate": "2024-10-31T18:30:00.000Z",
+      "totalPrice": 28000,
+      "userId": 5,
+      "location": "Bopal",
+      "name": "smit",
+      "phone": "lkhk",
+      "address": "jkhjh",
+      "apartment": "jhjhj",
+      "area": "hkjhj",
+      "pincode": "hkjhkjh",
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "carId": 6,
+      "model": "eqqe",
+      "fuel": "Diesel",
+      "startDate": "2024-10-29T18:30:00.000Z",
+      "endDate": "2024-11-01T18:30:00.000Z",
+      "totalPrice": 12000,
+      "userId": 5,
+      "location": "Chandkheda",
+      "name": "smit",
+      "phone": "klkl",
+      "address": "kl,jl.j",
+      "apartment": "kljlkjlk",
+      "area": "jlkjlk",
+      "pincode": "jkljlk",
+      "status": "approved",
+      "userEmail": "smitughaliya@gmail.com",
+      "id": 6
+    },
+    {
+      "carId": 2,
+      "model": "toyota",
+      "fuel": "Diesel",
+      "startDate": "2024-10-25T18:30:00.000Z",
+      "endDate": "2024-10-30T18:30:00.000Z",
+      "totalPrice": 5000,
+      "userId": 2,
+      "location": "Navrangpura",
+      "name": "ram",
+      "phone": "hgghg",
+      "address": "jghggh",
+      "apartment": "hfhgfgh",
+      "area": "fhgfhgf",
+      "pincode": "hgfhgfh",
+      "status": "completed",
+      "userEmail": "ram@gmail.com",
+      "id": 7
+    }
+  ],
+  "rentals": [],
+  "sliders": [
+    {
+      "title": "image",
+      "desc": "descrwrwrwrwrwrw",
+      "image": "http://res.cloudinary.com/harshitalogicrays1/image/upload/v1728373058/hljl4vrg1hevketctg14.jpg",
+      "id": 1
+    },
+    {
+      "title": "weqe",
+      "desc": "qeq",
+      "image": "http://res.cloudinary.com/harshitalogicrays1/image/upload/v1728372758/vinjcp7pio3aoglozadh.jpg",
+      "id": 2
+    },
+    {
+      "title": "weqe",
+      "desc": "qeqeqeqeqeq",
+      "image": "http://res.cloudinary.com/harshitalogicrays1/image/upload/v1728372768/gtlh7eh0htm9fqcqk9ru.jpg",
+      "id": 3
+    }
+  ]
+}
