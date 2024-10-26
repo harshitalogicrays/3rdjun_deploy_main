@@ -57,7 +57,7 @@ const CheckoutForm = () => {
       const sendMail = async(data)=>{
         let obj = {userEmail:data.userEmail,userName:data.name,status:data.status,amount:data.totalPrice,startDate:data.startDate,endDate:data.endDate}
         try{
-          await fetch("http://localhost:4000/mail", {
+          await fetch("https://3rdjun-nodeserver.vercel.app/mail", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(obj),
